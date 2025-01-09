@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n;
+    string s;
+    int a;
+    cin>>a;
+    for(int i=0;i<a;i++)
+    {
+        cin>>s;
+        if(s=="X++" || s=="++X")
+    {
+        n++;
+    }
+    else
+    {
+        n--;
+    }
+    }
+    cout<<n;
+    return 0;
+}
