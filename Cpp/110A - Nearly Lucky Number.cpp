@@ -1,8 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
-    int n;
+    long long n;
     cin>>n;
+    n=abs(n);
     int count=0;
     while(n!=0)
     {
